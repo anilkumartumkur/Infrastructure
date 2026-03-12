@@ -22,7 +22,7 @@ pipeline {
             steps {
                 script {
                     dir('terraform') {
-                        git url: 'https://github.com/ITkannadigaru/Infrastructure.git', branch: 'terraform'
+                        git url: 'https://github.com/ITkannadigaru/Infrastructure.git', branch: 'main'
                     }
                 }
             }
